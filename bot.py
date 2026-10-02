@@ -1,2 +1,3 @@
 print("Physics Talent Hub запущен!")
-TOKEN = "СЮДА_ПОТОМ_ВСТАВИМ_ТОКЕН"
+import os
+TOKEN = os.getenv("TOKEN")
